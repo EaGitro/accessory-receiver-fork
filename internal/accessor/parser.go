@@ -166,7 +166,7 @@ func parseTag(tag string) *Tag {
 
 		tagKey := strings.TrimSpace(keyValue[0])
 		var value string
-		if len(keyValue) == 2 {
+		if len(keyValue) >= 2 {
 			if v := strings.TrimSpace(keyValue[1]); v != ignoreTag {
 				value = v
 			}
@@ -180,7 +180,7 @@ func parseTag(tag string) *Tag {
 			noDefault = true
 		}
 
-		if tagKey == tagKeySetter && len(keyValue) == 3 {
+		if tagKey == tagKeySetter && len(keyValue) >= 3 {
 			if v := strings.TrimSpace(keyValue[2]); v == returnReceiver {
 				isReturnReceiver = true
 			}

@@ -1,4 +1,4 @@
-module github.com/masaushi/accessory
+module github.com/EaGitro/accessory-receiver-fork
 
 go 1.25.0
 

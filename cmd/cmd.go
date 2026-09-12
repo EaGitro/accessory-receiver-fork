@@ -9,7 +9,7 @@ import (
 
 	"github.com/spf13/afero"
 
-	"github.com/masaushi/accessory/internal/accessor"
+	"github.com/EaGitro/accessory-receiver-fork/internal/accessor"
 )
 
 // Version is the version of `accessory`, injected at build time.

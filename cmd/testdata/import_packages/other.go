@@ -1,7 +1,7 @@
 package test
 
 import (
-	"github.com/masaushi/accessory/cmd/testdata/import_packages/sub2"
+	"github.com/EaGitro/accessory-receiver-fork/cmd/testdata/import_packages/sub2"
 )
 
 type Other struct {
